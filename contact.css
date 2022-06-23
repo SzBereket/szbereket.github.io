@@ -59,3 +59,29 @@ body{
     margin-top: 0.75rem;
     margin-bottom: 1rem;
 }
+@media (max-width:995px) {
+    .navbar{
+        height: 3em !important;
+    }
+    .collapse{
+        display: block;
+        width: 3em;
+        height:3em !important;
+        float: left !important;
+        
+    
+    
+    }
+   
+    .navbar{
+        /* margin-bottom: 10rem !important; */
+        height: 10rem !important;
+        line-height: 5px;
+        float:inline-start;
+    }
+    .nav-item{
+        margin: auto;
+        
+        
+    }
+}
